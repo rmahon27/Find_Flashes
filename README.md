@@ -3,15 +3,15 @@
 
 ## Program Method
 
-# Step 1: 
+### Step 1: 
 
 The program looks through every column of every .fits file being looked at and takes the average of each column. These averages are then appended to a list to be further analyzed. 
 
-# Step 2: 
+### Step 2: 
 
 The program looks through the list of the average column value for every column of the .fits file. If the ratio between the average value of all the column and the value of an individual column is less than 0.1, it considers that column to be a "flash". If 5 or more columns in the .fits value are registered to be a flash, the program considers the .fits file in question to be an image where a flash is present and the file number and timstamp are logged. 
 
-# Step 3: 
+### Step 3: 
 
 After checking each .fits file, any files which have been registered to have flashes present are printed out along with their respective timestamp. 
 
